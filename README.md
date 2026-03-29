@@ -19,7 +19,7 @@ The goal is to understand how the model makes decisions and evaluate potential f
 1. Open the notebook  
 2. Run the cells from top to bottom  
 
-The dataset is loaded within the notebook, so no additional setup is required.
+The dataset is loaded within the notebook.
 
 ## Methods Used
 This project uses three main explanation approaches:
@@ -46,8 +46,7 @@ This project uses three main explanation approaches:
 
 ### 3. Counterfactual Analysis (DiCE)
 - Generated counterfactuals for each individual  
-- Reported minimal feature changes needed to flip predictions  
-- Flagged use of immutable features (e.g., race)  
+- Reported minimal feature changes needed to flip predictions    
 
 ### 4. Governance Memo
 - Summarized:
